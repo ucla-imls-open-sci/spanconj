@@ -1,114 +1,79 @@
 ---
-title: "Using Markdown"
-teaching: 10
+title: "Importance of Verb Tenses"
+teaching: 5
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- Why do we need to learn how to conjugate?
+- What are the Spanish subjects?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain how sentences in Spanish use verb tenses
+- Explain how the Spanish subjects
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Verb Tenses
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+In English, we often use verb tenses in sentences. For example, a common sentence to learn english is "The quick brown fox jumped over the lazy dog." In Spanish, the sentence structures are often similar if not the same. A key part of learning Spanish is learning how to conjugate verbs.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+Can come up with more example sentences
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Question
 
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+What is the sentence structure for English/Spanish sentences?
 
 :::::::::::::::::::::::: solution 
 
-## Output
+## Answer
+
+object + verb + subject
  
-```output
-[1] "This new lesson looks good"
-```
-
+::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::
 
+## Spanish subjects
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+In order to conjugate verbs, a key part we need are the subjects. In English, subjects are typically people. In Spanish, the subjects are:  
+
+Table: Subjects in Spanish
+
+| I | You | He/She | We | They | You all |
+| -- | --- | ------- | ------- | ---------| -------- |
+| Yo | Tú | Él/Ella | Nosotros/as | Ellos/as | Ustedes|
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Review
+
+How would you refer to your Grandma? Your sisters?
 
 :::::::::::::::::::::::: solution 
 
-You can add a line with at least three colons and a `solution` tag.
+## Answer
+
+Your Grandma is ella, your sisters are ellas.
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Figures
 
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Spanish sentence structure typically aligns with English
+- Verbs and subjects are important to create sentences
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[r-markdown]: https://rmarkdown.rstudio.com/
