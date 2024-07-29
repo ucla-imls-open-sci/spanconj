@@ -7,7 +7,7 @@ exercises: 3
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - What does the present simple tense mean?
-- What does the preterite tense mean?
+- Why do we need to conjugate correctly?
 - What are moods?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -16,24 +16,29 @@ exercises: 3
 
 - Learn basic verb conjugation
 - Learn how to conjugate in the present simple tense
-- Learn how to conjugate in the preterite tense
 - Learn the difference between the moods
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Present Simple Tense
+# Present Simple Tense
 
-The Present Simple Tense is the most basic tense in Spanish. Its purpose is to describe actions in the present or very near future. For example, in English, using the present simple tense would look something like this:
+The Present Simple Tense is the most basic tense in Spanish. Its purpose is to describe actions in the present or very near 
+future. For example, in English, using the present simple tense would look something like this:
 
 :::: callout
-The cat eats
-The cat swims
-Lucy bathes the cat
-Lucy bathes 
+
+The cat eats  
+
+The cat swims  
+
+Lucy bathes the cat  
+
+Lucy bathes   
+
 ::::
 
-## Figure
+#### Figure
 
 Here is a pie chart showing what percentage of verbs end with -ar, -er, and -ir
 
@@ -45,22 +50,150 @@ pie(
   border = FALSE
 )
 ```
+## -AR verbs: present simple
 
-In this figure, we can see that -ar verbs are the most common verb ending. To conjugate -ar verbs in the present simple tense, you must first get the word stem. Then, attach the endings in the table below to the verb stem depending on the subject performing the action
+In this figure, we can see that -ar verbs are the most common verb ending. To conjugate -ar verbs in the present simple tense, 
+you must first get the word stem. Then, attach the endings in the table below to the verb stem depending on the subject 
+performing the action
 
-Table: Subjects in Spanish
+Table: -AR present simple endings
 
 | Yo | Tú | Él/Ella | Nosotros | Ellos/as OR Ustedes| 
 | -- | --- | ------- | ------- | ------------ |
 | -o | -as |    -a   | -amos | -an |
 
 
+:::::: challenge
+
+## Question 
+
+If the verb for swim is nadar, translate: "Ximena swims"
+
+:::: solution
+
+## Answer
+
+"Ximena nada"
+
+::::
+::::::
+
+In the challenge question, our subject is Ximena. Since she is performing the action of swimming, our subject is ella (her).
+Therefore, we remove the -ar ending of nadar to get the verb stem of nad-, and attach an -a to get nada as our conjugated verb.
+
+## -ER/IR verbs: present simple 
+
+For verbs that end in -er/-ir, they have the same endings in the present simple tense.
+
+Table: -ER/IR present simple endings
+
+| Yo | Tú | Él/Ella | Nosotros | Ellos/as OR Ustedes| 
+| -- | --- | ------- | ------- | ------------ |
+| -o | -es |    -e   | -emos | -en |
+
+
+:::::: challenge
+
+## Question 
+
+If the verb for live is vivir, translate: "Gumo and Ellie live"
+
+:::: solution
+
+## Answer
+
+"Gumo y Ellie viven"
+
+::::
+::::::
+
+For this challenge question, the subjects are Gumo and Ellie. Gumo and Ellie live, so they are performing the action of 
+living (vivir). Together, they are the subject "ellos". If we just referred to Gumo, his subject would be él, and we would say,
+"Gumo vive." We remove the -ir verb ending of vivir to get the verb stem viv-, and attach the ending -en.
+
+# Moods in Spanish
+
+Some of you may be thinking, why is it so important to attach the correct endings? What happens if we attach er/ir endings to 
+an ar verb? 
+
+The reason why this is so important is because attaching the wrong endings can change the *mood* of the sentence.
+There are 3 moods in Spanish.
+
+### The Indicative Mood
+
+The Indicative mood is the mood that we use for the present simple tense. It is also the most common mood. It is what we use
+to relay facts and what the speaker is certain of. 
+
+For example, "The apple is red" uses the indicative mood because it describes a fact. 
+
+Another example is, "I know the muffin man." This also uses the indicative mood, because I am certain of the fact that I do know
+the muffin man. 
+
+What about if we aren't so sure of something?
+
+### The Subjunctive Mood
+
+The Subjunctive mood is used when we are not so sure of something. It can be used to relay subjectivity, hypothetical situations,
+opinions, doubt, and more.
+
+An example of the subjunctive mood would be, "I'm not sure if the apple is red." This is used because we are doubting that the
+apple is red, or that is subjective.
+
+Another example is, "I think I know the Muffin Man." If we were to say, "I don't know the Muffin Man," we would use the
+indicative mood, because we are certain of something. Similarly, if we say, "I don't think I know the Muffin Man," we use a 
+closed hypothetical, meaning that we are pretty certain of not knowing him, so we use the indicative. However, saying "I think"
+uses an open hypothethical, because it indicates there are two outcomes that are equally likely: I do know the Muffin Man, and I
+dont know the Muffin Man. 
+
+### The Imperative Mood
+
+The Imperative mood isn't used very often, but we use it to make commands. You will often see it in public, on different signs.
+
+An example of the imperative mood is, "Speak Spanish!" 
+
+We cannot form the imperative with the first person, because you cannot command yourself to do something (gramatically-speaking
+of course)
+
+
+## Why is this important to conjugation?
+
+The moods described above are important to conjugation because to create the subjunctive mood or imperative in different 
+situations, we need to switch the verb endings.
+
+For example, if I were to say, "I know the Muffin Man," it would look like this:
+
+:::: callout
+
+Yo conozco al Muffin Man
+
+::::
+
+Here we can see that the verb conocer (to know) is conjugated in the first person present simple. Note that it is also an
+irregular verb, so instead of "conoco", we write "conozco."
+
+However, in the subjunctive, we would write,
+
+:::: callout
+
+Yo conozca al Muffin Man
+
+:::: 
+
+We take the verb stem in the first person form, and then drop the ending (-o) and replace it with -a, in order to indicate that
+we are in the subjunctive mood, and not fully sure if we know him or not.
+
+::::: discussion
+
+Overall, when first learning Spanish, it is best to use the indicative mood. Once more comfortable, learning the other moods is
+key to understanding the language more 
+
+:::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Most Spanish verbs end in Ar
-- There are three verb endings
-- Conjugation involves a verb stem and conjugate
+- The present simple describes actions in the now
+- Conjugating verbs correctly is important to avoid misunderstandings
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
