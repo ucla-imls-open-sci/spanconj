@@ -26,7 +26,7 @@ exercises: 3
 
 The Present Simple Tense is the most basic tense in Spanish. Its purpose is to describe actions in the present or very near future. For example, in English, using the present simple tense would look something like this:
 
-::::
+:::: callout
 The cat eats
 The cat swims
 Lucy bathes the cat
