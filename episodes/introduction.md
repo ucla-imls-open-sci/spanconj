@@ -1,7 +1,7 @@
 ---
 title: "Importance of Verb Tenses"
 teaching: 10
-exercises: 3
+exercises: 4
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -15,6 +15,7 @@ exercises: 3
 
 - Explain how sentences in Spanish use verb tenses
 - Explain the Spanish subjects and how they work with verbs
+- Learn about verb stems and conjugates
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -96,12 +97,67 @@ In Spanish, there are two forms of conjugation.
 Infinitive Form: The base form of the verb (e.g., "hablar" - to speak).
 Conjugated Forms: Modified forms of the verb to agree with the subject and indicate the tense (e.g., "yo hablo" - I speak, "tú hablas" - you speak).
 
+## The three types of verb endings
+
+In Spanish, verbs have 3 types of endings:
+ 1. -Ar endings
+ 2. -Er endings
+ 3. -Ir endings
+
+In order to conjugate verbs, you must remove the verb endings. A verb stem is the part of a verb that remains after you remove its ending.
+
+## Figure
+
+Here is a pie chart showing what percentage of verbs end with -ar, -er, and -ir
+
+```{r pyramid, fig.alt = "pie chart of verb endings", fig.cap = "Percentage of Verb endings"}
+pie(
+  c("-Ar" = 80, "-Er" = 15, "-Ir" = 5), 
+  init.angle = 315, 
+  col = c("pink", "lavender", "skyblue"), 
+  border = FALSE
+)
+```
+
+::: callout
+## Example
+
+For the verb hablar, its verb stem is habl-
+::: 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+You can try showing them examples with all 3 different types of verb endings
+Inline instructor notes can help inform instructors of timing challenges
+associated with the lessons. They appear in the "Instructor View"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Practice
+
+What is the verb stem of the verb pedir?
+
+:::::::::::::::::::::::: solution 
+
+Pedi-
+
+::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::
+
+::: callout
+
+To learn more about why verbs only have 3 ending types, visit [this stack exchange post](https://spanish.stackexchange.com/questions/17604/why-do-the-verbs-in-spanish-only-end-in-ar-er-ir)
+
+:::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Spanish sentence structure typically aligns with English
-- Verbs and subjects are important to create sentences
 - Verb conjugation has two forms 
+- There are three verb endings
+- Conjugation involves a verb stem and conjugate
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
