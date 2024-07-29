@@ -1,66 +1,39 @@
 ---
-title: 'Introduction to Verb Conjugation'
+title: 'The Indicative tense'
 teaching: 10
-exercises: 1
+exercises: 3
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What are the parts of Spanish verb conjugation?
-- How do Spanish verbs appear usually?
+- What does the present simple tense mean?
+- What does the preterite tense mean?
+- What are moods?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Learn about verb stems and conjugates
-- Explain how Spanish verb conjugation works
+- Learn basic verb conjugation
+- Learn how to conjugate in the present simple tense
+- Learn how to conjugate in the preterite tense
+- Learn the difference between the moods
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The three types of verb endings
 
-In Spanish, verbs have 3 types of endings:
- 1. -Ar endings
- 2. -Er endings
- 3. -Ir endings
+## Present Simple Tense
 
-In order to conjugate verbs, you must remove the verb endings. A verb stem is the part of a verb that remains after you remove its ending.
+The Present Simple Tense is the most basic tense in Spanish. Its purpose is to describe actions in the present or very near future. For example, in English, using the present simple tense would look something like this:
 
-::: callout
-## Example
+::::
+The cat eats
+The cat swims
+Lucy bathes the cat
+Lucy bathes 
+::::
 
-For the verb hablar, its verb stem is habl-
-::: 
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-You can try showing them examples with all 3 different types of verb endings
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Practice
-
-What is the verb stem of the verb pedir?
-
-:::::::::::::::::::::::: solution 
-
-Pedi-
-
-::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::
-
-::: callout
-
-To learn more about why verbs only have 3 ending types, visit [this stack exchange post](https://spanish.stackexchange.com/questions/17604/why-do-the-verbs-in-spanish-only-end-in-ar-er-ir)
-
-:::
-
-## Figures
+## Figure
 
 Here is a pie chart showing what percentage of verbs end with -ar, -er, and -ir
 
@@ -73,7 +46,15 @@ pie(
 )
 ```
 
-![Spanish Alphabet Chart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGom-4oPbxmtsWb3B8tIjT85rXHQBHDUamA&s){alt='Blue chart listing the spanish alphabet'}
+In this figure, we can see that -ar verbs are the most common verb ending. To conjugate -ar verbs in the present simple tense, you must first get the word stem. Then, attach the endings in the table below to the verb stem depending on the subject performing the action
+
+Table: Subjects in Spanish
+
+| Yo | Tú | Él/Ella | Nosotros | Ellos/as OR Ustedes| 
+| -- | --- | ------- | ------- | ------------ |
+| -o | -as |    -a   | -amos | -an |
+
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 

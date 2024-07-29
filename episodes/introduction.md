@@ -97,6 +97,8 @@ In Spanish, there are two forms of conjugation.
 Infinitive Form: The base form of the verb (e.g., "hablar" - to speak).
 Conjugated Forms: Modified forms of the verb to agree with the subject and indicate the tense (e.g., "yo hablo" - I speak, "tú hablas" - you speak).
 
+While you occasionally use the infinitive form, learning to create conjugated forms is essential to learning how to speak Spanish. Conjugated forms help you express different moods and periods of time during which actions are performed. 
+
 ## The three types of verb endings
 
 In Spanish, verbs have 3 types of endings:
@@ -104,20 +106,7 @@ In Spanish, verbs have 3 types of endings:
  2. -Er endings
  3. -Ir endings
 
-In order to conjugate verbs, you must remove the verb endings. A verb stem is the part of a verb that remains after you remove its ending.
-
-## Figure
-
-Here is a pie chart showing what percentage of verbs end with -ar, -er, and -ir
-
-```{r pyramid, fig.alt = "pie chart of verb endings", fig.cap = "Percentage of Verb endings"}
-pie(
-  c("-Ar" = 80, "-Er" = 15, "-Ir" = 5), 
-  init.angle = 315, 
-  col = c("pink", "lavender", "skyblue"), 
-  border = FALSE
-)
-```
+The three types of endings will affect how you conjugate different verbs. It is important to conjugate correctly according to the type of ending a verb has, otherwise you may express a different mood than what you mean. Moods will be explained in the next episode. In order to conjugate verbs, you must remove the verb endings. A verb stem is the part of a verb that remains after you remove its ending.
 
 ::: callout
 ## Example
@@ -133,6 +122,8 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+When you conjugate verbs, you will use the verb stem and attach different endings to the stem to create different tenses of the verb. If the concept is difficult to understand, think about the word "cooked". If we take off "-ed", we get the verb stem "cook". Infinitives in English generally translate to "cooking", or "baking", etc. If we want to talk about Sheila, we can say, "Sheila cooked the turkey." This expresses that the turkey is already prepared, and she has finished cooking. We can also say, "Sheila cooks the turkey." This expresses that she is still cooking the turkey. 
+
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Practice
@@ -144,6 +135,9 @@ What is the verb stem of the verb pedir?
 Pedi-
 
 ::::::::::::::::::::::::
+
+Now that we understand verb stems, and the purpose of conjugation, we will learn how to conjugate in two different tenses in the next episode. 
+
 :::::::::::::::::::::::::::::::::
 
 ::: callout
